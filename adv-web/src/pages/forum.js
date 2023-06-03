@@ -14,7 +14,7 @@ function Forum() {
   <>
     <div>
 
-    <header>
+    <header id="hhh">
     <a href="homepage.html"><img src={pic1} class="logo"></img></a>
     <ul>
         <li><a href="/">Home</a></li>

@@ -21,8 +21,8 @@ const bannerStyle = {
 function Home() {
   return (
     
-<div>
-      <header>
+<div className='body'>
+      <header id="hhh1">
         <a href="/"><img src={logo} class="logo"></img></a>
         <ul>
           <li><a href="#" className="active">Home</a></li>
@@ -113,6 +113,7 @@ function Home() {
     
     
   );
+  
 }
 
 export default Home;

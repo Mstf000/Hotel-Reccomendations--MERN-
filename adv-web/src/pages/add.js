@@ -11,7 +11,7 @@ function Add() {
   return (
   <>
   
-<header>
+<header id="hhh2">
     <a href="homepage.html"><img src={pic1} class="logo"></img></a>
     <ul>
         <li><a href="/" >Home</a></li>
@@ -34,7 +34,7 @@ function Add() {
             <input type="number" className="input-field" placeholder="Number of PCs" required />
             <input type="number" className="input-field" placeholder="Capacity" required />
             <input type="number" className="input-field" placeholder="Number of chairs" required />
-            <button type="submit" onClick={dialogue}>Add</button>
+            <button id="sbutton" type="submit" onClick={dialogue}>Add</button>
           </form>
         </div>
       </div>

@@ -16,7 +16,7 @@
 
      /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('mm.jpg');  */
 }
-header{
+#hhh1{
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -36,14 +36,14 @@ header{
    transition: 0.3s;
 
 }
-header ul{
+#hhh1 ul{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
 }
-header ul li{
+#hhh1 ul li{
     list-style: none;
     display: inline-block;
     margin: 0 15px;
@@ -52,7 +52,7 @@ header ul li{
 
     
 }
-header ul li a{
+#hhh1 ul li a{
     position: relative;
     text-decoration: none;
     color: white;
@@ -62,7 +62,7 @@ header ul li a{
 
     
 }
-header ul li a::after{
+#hhh1 ul li a::after{
     content: '';
     height: 4px;
     width: 0;
@@ -72,18 +72,18 @@ header ul li a::after{
     background: rgb(193, 151, 37);
     transition: 0.5s;
 }
- header ul li a:hover::after{
+#hhh1 ul li a:hover::after{
     width:100%;
 }
-header ul li a:hover{
+#hhh1 ul li a:hover{
     color: rgb(193, 151, 37);
     transition: 0.5s;
 }
-header ul li a.active{
+#hhh1 ul li a.active{
     color: rgb(193, 151, 37);
     
 }
-header ul li .active::after{
+#hhh1 ul li .active::after{
     content: '';
     height: 4px;
     width: 100%;
@@ -93,7 +93,7 @@ header ul li .active::after{
     background: rgb(193, 151, 37);
     transition: 0.5s;
 }
-header.sticky{
+#hhh1.sticky{
     /* padding: 5px 100px; */
     background-color: rgb(17, 13, 47);
     width: 100%;
@@ -104,7 +104,7 @@ header.sticky{
     transition: 0.6s;
     /* position: sticky; */
 }
-header.sticky .logo{
+#hhh1.sticky .logo{
     width: 120px;
 }
 
